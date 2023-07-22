@@ -40,7 +40,7 @@ const NumberManagement = () => {
 
       {res && res.length > 0 && (
         <div>
-          <h2>Results:</h2>
+          <h2>Sorted Array is:</h2>
           <pre>{JSON.stringify({ numbers: res }, null, 2)}</pre>
         </div>
       )}
